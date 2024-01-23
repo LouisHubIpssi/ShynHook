@@ -4,13 +4,14 @@
         <ul>
             <li>Blog</li>
             <li>FAQ</li>
-            <li>OUI</li>
-            <li>OUI</li>
+            <li>Contact</li>
+            <li>A Propos</li>
         </ul>
        <div class="socialMedias">
-        <img src="./img/instagram.png" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <img src="./img/icons8-instagram.svg" alt="">
+        <img src="./img/icons8-twitterx.svg" alt="">
+        <img src="./img/icons8-tiktok.svg" alt="">
+
        </div>
     </footer>
     <script src="script.js" async></script>

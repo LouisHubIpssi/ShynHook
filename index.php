@@ -20,26 +20,30 @@
                 <a href="#"><img src="./img/shopping-basket.png" class="shoppingBasket" alt="shopping-basket"></a>
             </div>
             <div class="container">
-                <img src="./img/pullVertBackRouge.png" class="vetement" alt="">
+                <img src="./img/pullVertBackRouge.png" class="vetement" alt="" onclick="afficherDescription('Pull Vert Vintage', './img/pullVertBackRouge.png')">
                 <a href="#"><img src="./img/shopping-basket.png" class="shoppingBasket" alt="shopping-basket"></a>
             </div>
             <div class="container">
-                <img src="./img/OIG (7).jpg" class="vetement"  alt="">
+                <img src="./img/OIG (7).jpg" class="vetement"  alt="" onclick="afficherDescription('Sweat Blanc à capuche', './img/OIG (7).jpg')">
+                <a href="#"><img src="./img/shopping-basket.png" class="shoppingBasket" alt="shopping-basket"></a>
+            </div>
+        <div class="shop">
+            <div class="container">
+                <img src="./img/OIG (8).jpg" class="vetement"  alt="" onclick="afficherDescription('Sweat Multicolore', './img/OIG (8).jpg')">
                 <a href="#"><img src="./img/shopping-basket.png" class="shoppingBasket" alt="shopping-basket"></a>
             </div>
             <div class="container">
-                <img src="./img/OIG (8).jpg" class="vetement" alt="">
+                <img src="./img/OIG (9).jpg" class="vetement" alt="" onclick="afficherDescription('Pull noir oversized', './img/OIG (9).jpg')">
                 <a href="#"><img src="./img/shopping-basket.png" class="shoppingBasket" alt="shopping-basket"></a>
             </div>
             <div class="container">
-                <img src="./img/OIG (9).jpg" class="vetement" alt="">
+                <img src="./img/short.png" class="vetement" alt="" onclick="afficherDescription('Short NBA', './img/short.png')">
                 <a href="#"><img src="./img/shopping-basket.png" class="shoppingBasket" alt="shopping-basket"></a>
             </div>
-            <div class="container">
-                <img src="./img/short.png" class="vetement" alt="">
-                <a href="#"><img src="./img/shopping-basket.png" class="shoppingBasket" alt="shopping-basket"></a>
-            </div>
+
         </div>
+        <p> La suite arrive bientôt ... </p>
+        
 
     </main>
 
@@ -165,7 +169,7 @@ body {
     display: block;
 }
 
-main p {
+.text-overlay p {
     font-size: 40px;
     position: absolute;
     right: 200px;
@@ -180,6 +184,15 @@ main p {
     z-index: -2;
     top: 800px;
 }
+main p {
+    margin-top : 500px;
+    font-size : 2rem;
+    position: absolute;
+    right: 40vw;
+    top: 90vh;
+}
+
+
 
 @keyframes scroll {
             from {

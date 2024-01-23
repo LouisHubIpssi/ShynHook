@@ -24,7 +24,7 @@
             </button>
 
             <button id="paiement">
-                <p>Payez avec Paypal </p>
+                <p>Précommander cet article </p>
             </button>
         
 
@@ -58,13 +58,16 @@
         }
 
         #gauche{
-            height: 100vh;
+            height: 80vh;
             width: 45vw;
             background-color: #FEFAE0;
             display: flex;
             justify-content: center;
             align-items: center;
             margin-left: 100px;
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
         }
         #gauche img{
             width: 80%;
@@ -74,8 +77,8 @@
         }
 
         #droite {
-            height: 100vh;
-            width: 45vw;
+            height: 80vh;
+            width: 35vw;
             /* background-color: #FEFAE0; */
             border: solid #FEFAE0 2px;
             border-radius: 20px;
@@ -84,38 +87,39 @@
             justify-content: center;
             align-items: center;
             margin-left: 100px;
+            
         }
         #droite select {
             width: 60%;
-            height: 200px;*
-            border-radius: 20px;
+            height: 100px;
+            border-radius: 40px;
         }
         #panier {
             width: 40%;
             height: 60px;
-            background-color: red;
+            background-color: #FEFAE0;
             display:flex;
             align-items: center;
             justify-content: center;
             border: solid black 2px;
             border-radius: 50px;
-            margin-top : 30px;
+            margin-top : 100px;
             transition: 0.2s;
         }
         #panier:hover {
-            transform: scale(1.1);
+            transform: scale(1.06);
             transition: 0.2s;
         }
         #paiement {
             width: 40%;
             height: 60px;
-            background-color: red;
+            background-color: #FEFAE0;
             display:flex;
             align-items: center;
             justify-content: center;
             border: solid black 2px;
             border-radius: 50px;
-            margin-top: 30px;
+            margin-top: 60px;
             transition: 0.2s;
         }
         #paiement:hover {
@@ -123,6 +127,13 @@
             transition: 0.2s;
         }
 
+        #droite h2{
+            margin-bottom: 50px;
+            font-size: 3rem;
+        }
+        #droite label{
+            margin-bottom: 15px;
+        }
         
     </style>
 </body>
